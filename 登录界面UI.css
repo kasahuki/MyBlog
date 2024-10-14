@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+ 
+  background-image: linear-gradient(to left, #09db57, #4de04a, #70e43b, #8de82a, #a8eb12);
+   width: 100%;
+   min-height: 100vh;
+
+}
+a{
+  text-decoration: none;
+}
+.log
+{
+  width: 500px;
+  height: 600px;
+  background-image: linear-gradient(to top, #ecf9f1, #cbf8db, #aaf6c2, #89f3a7, #66ef89);
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 10%;
+  backdrop-filter: blur(10px);
+
+}
+
+.logo
+{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+ left: 10px;
+ background-color: green;
+ border-radius: 20%;
+ cursor: pointer;
+}
+.logo h1{
+  color: greenyellow;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+}
+.logo img
+{
+  display: block;
+ margin: 0 auto;
+}
+.logo:hover
+{
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.cta
+{
+
+  position: absolute;
+  left:10px;
+  top: 110px;
+ font-size: 20px;
+ font-weight: 700;
+
+}
+.cta a
+{
+  color: black;
+  font-weight: 700;
+}
+.log .header
+{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
